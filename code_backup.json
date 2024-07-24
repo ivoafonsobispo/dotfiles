@@ -1,0 +1,236 @@
+{
+    "workbench.iconTheme": "symbols",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "readme",
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": true,
+    "workbench.layoutControl.enabled": false,
+    // Editor settings
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.renderLineHighlight": "gutter",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.scrollbar.vertical": "auto",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "boundary",
+    // Terminal settings
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.showExitAlert": false,
+    // Explorer settings
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    // Update settings
+    "update.showReleaseNotes": false,
+    "update.mode": "start",
+    // Git settings
+    "git.autofetch": true,
+    // Vim settings
+    "vim.useCtrlKeys": false,
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch b/w buffers
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        // splits
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        // panes
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        // NICE TO HAVE
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "x"
+            ],
+            "commands": [
+                ":x!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        // Move selected lines while staying in visual mode
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        // toggle comment selection
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    // Miscellaneous settings
+    "symbols.hidesExplorerArrows": false,
+    "breadcrumbs.enabled": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "extensions.ignoreRecommendations": true,
+    "cSpell.language": "en-GB,pt",
+    "git.confirmSync": false,
+}
