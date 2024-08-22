@@ -24,13 +24,3 @@ set autoindent
 
 " show the matching part of pairs [] {} and () "
 set showmatch
-
-" enable color themes "
-if !has('gui_running')
-	set t_Co=256
-endif
-" enable true colors support "
-set termguicolors
-" Vim colorscheme "
-colorscheme desert
-
