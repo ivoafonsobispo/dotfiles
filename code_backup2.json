@@ -1,43 +1,50 @@
 {
-	"workbench.sideBar.location": "right",
 	"workbench.startupEditor": "readme",
-	"editor.fontSize": 14,
+	"workbench.editor.showTabs": "single",
+	"workbench.iconTheme": "symbols",
 	"window.zoomLevel": 1,
-	"editor.lineHeight": 2.5,
+	// Editor Settings
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 120,
+	"editor.renderLineHighlight": "gutter",
+	"editor.fontSize": 14,
+	"editor.lineHeight": 1.8,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontWeight": "500",
+	"editor.fontLigatures": false,
+	"editor.mouseWheelZoom": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"editor.snippetSuggestions": "top",
-	"editor.fontFamily": "JetBrains Mono NL",
-	"editor.mouseWheelZoom": true,
-	"workbench.editor.showTabs": "none",
+	"editor.suggestSelection": "first",
+	"editor.insertSpaces": false,
+	"editor.inlineSuggest.enabled": true,
 	"editor.minimap.enabled": false,
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.lineHeight": 1.5,
-	"terminal.integrated.fontFamily": "JetBrains Mono NL",
+	"editor.scrollbar.vertical": "auto",
+	"editor.scrollbar.horizontal": "auto",
+	// Terminal Settings
 	"terminal.integrated.showExitAlert": false,
+	// Explorer Settings
 	"explorer.compactFolders": false,
 	"explorer.fileNesting.enabled": true,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"explorer.sortOrder": "foldersNestsFiles",
-	"update.showReleaseNotes": false,
-	"update.mode": "start",
-	"editor.fontLigatures": false,
-	"workbench.editor.labelFormat": "short",
-	"editor.semanticHighlighting.enabled": false,
-	"editor.scrollbar.vertical": "auto",
-	"editor.scrollbar.horizontal": "auto",
-	"workbench.statusBar.visible": false,
-	"symbols.hidesExplorerArrows": false,
-	"extensions.ignoreRecommendations": true,
+	"workbench.tree.indent": 8,
+	// Breadcrumbs
+	"breadcrumbs.enabled": false,
+	// Files Settings
 	"files.autoSave": "onFocusChange",
-	"editor.wordWrap": "off",
-	"editor.suggestSelection": "first",
-	"editor.tabSize": 4,
-	"editor.insertSpaces": false,
-	"editor.inlineSuggest.enabled": true,
 	"files.trimTrailingWhitespace": true,
-	"workbench.iconTheme": "symbols",
+	// Symbols
+	"symbols.hidesExplorerArrows": false,
+	// Updates
+	"update.showReleaseNotes": false,
+	// Vim Extension Settings
 	"vim.useCtrlKeys": false,
 	"vim.leader": "<Space>",
 	"vim.hlsearch": true,
@@ -210,4 +217,5 @@
 			]
 		}
 	],
+	"workbench.colorTheme": "Min Dark",
 }
